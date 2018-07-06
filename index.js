@@ -9,14 +9,14 @@ let rowNum = Object.keys(excel.Sheets.Sheet1).length/9;
 let dateFormat = "YYYY-MM-DD HH:mm:ss";
 let sheet = [];
 let header = [
-    "licensePlateLetter",
-    "licensePlateNumber",
-    "licensePlateProvince",
+    "license_plate_letter",
+    "license_plate_number",
+    "license_plate_province",
     "title",
     "name",
-    "phoneNumber",
+    "phone_number",
     "start",
-    "validThrough"]
+    "valid_through"]
 sheet.push(header);
 for(row = 1; row <= rowNum; row++) {
     let alphabet = "A";
